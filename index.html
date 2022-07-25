@@ -13,7 +13,7 @@
     <!-- header start form here -->
     <header>
         <!-- navbar start from here -->
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-lg fixed-top bg-light">
             <div class="container">
                 <a class="navbar-brand" href="#"><img src="./images/logo.png" alt="logo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -35,12 +35,12 @@
                                 Product
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Shoes</a></li>
-                                <li><a class="dropdown-item" href="#">Back-packs</a></li>
+                                <li><a class="dropdown-item" href="#shoes">Shoes</a></li>
+                                <li><a class="dropdown-item" href="#Back-packs">Back-packs</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="#">Custom order</a></li>
+                                <li><a class="dropdown-item" href="#connect-us">Get Updates</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
@@ -157,7 +157,7 @@
             </div>
         </section>
         <!-- shoes card section start from here -->
-        <section class="container my-5">
+        <section class="container my-5" id="shoes">
             <h2>Shoes</h2>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
@@ -205,7 +205,7 @@
             </div>
         </section>
         <!-- Backpack card section start from here -->
-        <section class="container my-5">
+        <section class="container my-5" id="Back-packs">
             <h2>Back-packs</h2>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
@@ -252,7 +252,26 @@
                 </div>
             </div>
         </section>
+        <!-- Subscribe section start from here -->
+        <section style="height: 350px;"
+            class="container my-5 d-flex justify-content-center align-items-center bg-warning rounded-3"
+            id="connect-us">
+            <div>
+                <h2>LET'S STAY IN TOUCH</h2>
+                <p>Get updates on sales specials and more</p>
+                <form>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </section>
     </main>
+    <!-- footer section start from here -->
+    <footer class="text-center">
+        <p><small>©2023. Panda Commerce. All rights reserved. Chittagong, Bangladesh.</small></p>
+    </footer>
 
     <!-- sript code -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
